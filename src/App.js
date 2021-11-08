@@ -1,8 +1,8 @@
 import './App.css';
 import {Provider} from "react-redux";
 import store from "./redux/store";
-import HooksCakeContainer from "./HooksCakeContainer";
-import HooksIceCreamContainer from "./HooksIceCreamContainer";
+import HooksCakeContainer from "./components/HooksCakeContainer";
+import HooksIceCreamContainer from "./components/HooksIceCreamContainer";
 
 function App() {
     return (
